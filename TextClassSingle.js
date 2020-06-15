@@ -19,6 +19,11 @@ class TextClassSingle extends TextClassBase{
 
 	run(text){
 
+		// Check if model has no value
+		if(this.model.length < 1){
+			return null;
+		}
+
 		let tokens = this.tokenize(text);
 		let matchedTokens;
 

@@ -71,6 +71,8 @@ let result = {
     }
 }
 ```
+Or if no data is in model it returns `null`.
+
 #### Properties:
 #### `model: Array`
 The model. In this TextClass, its just an array with all tokens.
@@ -95,6 +97,8 @@ let result = {
     }
 }
 ```
+Or if no data is in model it returns `null`.
+
 #### Properties:
 #### `model: Object`
 The model. In this TextClassWeighted, it looks like this:

@@ -67,6 +67,11 @@ class TextClassSingleWeighted extends TextClassBase{
 
 	run(text){
 
+		// Check if model has no value
+		if(Object.keys(this.model.tokens).length < 1){
+			return null;
+		}
+
 		// Check if the model is processed or not. If not, do it.
 		if(!this.model.processed){
 			this.processModel();
