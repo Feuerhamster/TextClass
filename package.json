@@ -1,6 +1,6 @@
 {
   "name": "textclass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple text classifier library for javascript",
   "main": "main.js",
   "scripts": {
