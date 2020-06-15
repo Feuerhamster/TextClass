@@ -1,0 +1,24 @@
+{
+  "name": "textclass",
+  "version": "0.1.0",
+  "description": "A simple text classifier library for javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feuerhamster/TextClass.git"
+  },
+  "keywords": [
+    "text",
+    "classification",
+    "classifier"
+  ],
+  "author": "Feuerhamster",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Feuerhamster/TextClass/issues"
+  },
+  "homepage": "https://github.com/Feuerhamster/TextClass#readme"
+}
